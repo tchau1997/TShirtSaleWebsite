@@ -1,0 +1,98 @@
+<div class="row">
+    <div class="col-md-3 father-twotabs">
+        <div class="twotabs">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                        aria-selected="true">Chữ</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                        aria-selected="false">Mẫu</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Điền chữ vào bên dưới :</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Điền chữ vào đây">
+                        </div>
+                        <div>
+                            <label for="font">Chọn phông chữ :</label>
+                            <br>
+                            <select name="font" required onchange="myfc()">
+                                <option id="normal">Normal</option>
+                                <option id="iflower">Indie Flower</option>
+                                <option id="PressStart2P">Press Start 2P</option>
+                                <option id="FasterOne">Faster One</option>
+                                <option id="Orbitron">Orbitron</option>
+                                <option id="Monoton|Orbitron">Monoton|Orbitron</option>
+                            </select>
+                        </div>
+                        <label>Chọn màu sắc chữ :</label>
+                        <input class="input-text" type="color" id="get-color" onchange="fetch()">
+                        <input class="input-text" type="text" id="put-color">
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/face-book.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/light.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon4.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon1.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon2.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon3.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon5.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon6.png" onclick="choose(this.src)">
+                    <img style="margin-left:2px;margin-top:5px" class="icon" src="img/icon7.png" onclick="choose(this.src)">
+                    <div style="display: flex; justify-content: center;align-items: center;width:100%;margin-top:5px">
+                        <div class="load">
+                            <label class="btn btn-primary">
+                                Load ảnh lên
+                                <input id="fileinput1" type="file" style="display: none;">
+                            </label>
+                            <!-- <input type="file" style="display: none;"> -->
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="khunganh">
+            <img id="nen" class="tshirt" src="img/tshirt.jpg">
+            <div class="khungtrong" ondrop="drop(event)" ondragover="allowDrop(event)" id="khungtrong" style="display: flex; justify-content: center;align-items: center"></div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="twotabs2">
+            Kiểu dáng thiết kế:
+            <div class="scroll">
+                <div class="list-group">
+                    {{#each Shirts}}
+                        <button type="button" class="list-group-item list-group-item-action" onclick="doinen($(this))">
+
+                            <div class="option">
+                                <img class="tshirt-form" src="{{image}}">
+                                <ul style="font-size: 11px;">
+                                    <li>{{size}}</li>
+                                    <li>{{material}}</li>
+                                    <li>{{status}}</li>
+                                </ul>
+                            </div>
+                        </button>
+                    {{/each}}
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg">Đặt hàng ngay</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>

@@ -1,0 +1,136 @@
+.container{
+    
+}
+
+/*  */
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+   
+}
+.imgts{
+    margin-top: 10px;
+    box-shadow: 3px 3px 7px #bcbfc4;
+}
+.post{
+    box-shadow: 5px 5px 7px #bcbfc4;
+    position: relative;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.post:hover .post-s{
+    width: 220px;
+}
+.post img{
+    display: block;
+    height: 220px;
+    width: 220px;
+}
+.post-s{
+    background-color: #00bcd426;
+    width: 0px;
+    height: 220px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.btn-outline-secondary {
+    color:black;
+    background-color: transparent;
+    background-image: none;
+    border-color: black;
+}
+hr{
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+.post1{
+    /* box-shadow: 5px 5px 7px #bcbfc4; */
+    position: relative;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.post1:hover .post-s1{
+    width: 300px;
+}
+.post1 img{
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+.post-s1{
+    background-color: #00bcd426;
+    width: 0px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.contact{
+    color: black;
+    position: absolute;
+    right: 90px;
+    font-size: 14px;
+}
+.login{
+    color: black;
+    position: absolute;
+    right: 40px;
+    font-size: 14px;
+}
+.header1{
+    
+    height: 30px;
+    background-color: #448ccb;
+}
+
+.bg-light{
+    background-color: #e6e2de!important;
+}
+.gh{
+    width: 30px;
+    height: 30px;
+}
+/* footer */
+.footer{
+    margin-top: 20px;
+    background-color: #e6e2de;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-footer-logoo{
+    width: 200px;
+    height: 200px;
+}
+.cardbox-footer{
+    margin: 100px;
+}
+.img-footer-facebook{
+    width: 40px;
+    height: 40px;
+}
+.link-footer{
+    font-family: "Indie Flower",sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.connect{
+    font-size: 20px;
+}
+.bloger-phone{
+    margin-top: 10px;
+}

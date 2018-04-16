@@ -1,0 +1,246 @@
+._img{
+    width: 60px;
+    height: 60px;
+}
+.btn-outline-success {
+    color: #05b7f9;
+    background-image: none;
+    background-color: transparent;
+    border-color: #05b7f9;
+}
+.gh{
+    width: 30px;
+    height: 30px;
+}
+.test{
+    margin-right: 30px;
+}
+.bg-faded{
+    background-color: #e6e2de;
+}
+.col-md-12
+{
+    height: 30px;
+    background-color: #448ccb;
+    
+}
+.navbar-collapse{
+   font-size: 22px;
+   font-family: fantasy;
+}
+.btn-link{
+    color: black;
+    font-size: 14px;
+}
+.contact{
+    position: absolute;
+    right: 90px;
+}
+.login{
+    position: absolute;
+    right: 40px;
+}
+/* .img-container{
+    background-image: url("../imgage.jpeg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+.inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: rgb(46, 26, 230);
+    height: auto;
+    margin-top: 15px;
+}
+h1{
+    font-size: 5em;
+    font-family: "Indie Flower",sans-serif;
+    margin-top: 50px;
+}
+.yourid{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 90%;
+}
+.slide{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    margin-top: 220px;
+}
+.btn-in-slide{
+    color: #e6e2de;
+    border-color: #e6e2de;
+    font-size: 4em;
+    border-radius: 15px;
+}
+.btn-in-slide2{
+    color: #020101;
+    border-color: #020101;
+    font-size: 4em;
+    border-radius: 15px;
+}
+/* .wrapper {
+    width: 80%;
+    height: 200px;
+    
+    margin: 10px auto;
+    display: flex;
+} */
+ 
+/* .center {
+    width: 50%;
+    height: 50%;
+    background: #00b3b3;
+    margin: auto;
+} */
+.test1
+{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    border-style: groove;
+    border-width: 1px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    /* margin: 120px auto;
+    display: block; */
+}
+.fourtag{
+    margin-top: 20px;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+
+}
+.cardbox
+{
+    /* perspective: 500px; */
+    margin: 15px;
+}
+.card{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transition: .5s ease;
+    box-shadow: 0 30px 30px rgba(0,0,0,.5); 
+    
+}
+.cardfront , .cardback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    /* color: #9f9d9d; */
+    backface-visibility: hidden;
+}
+.cardfront{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cardback{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cardbox:hover .card{
+    transform: rotateY(180deg);
+}
+.cardback{
+    transform: rotateY(180deg);
+}
+.treetag{
+    margin-top: 20px;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cardbox-treetag
+{
+    /* perspective: 500px; */
+    margin: 15px;
+}
+.img-treetag-2{
+    width: 350px;
+    height: 400px;
+}
+.img-treetag-2:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(156, 153, 153);
+}
+
+.text-treetag
+{
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 28px;
+    font-weight: bolder;
+}
+hr{
+    /* border-style: inset; */
+    border-width: 1px;
+    background-color: #020101;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #e6e2de;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-footer-logoo{
+    width: 200px;
+    height: 200px;
+}
+.cardbox-footer{
+    margin: 100px;
+}
+.img-footer-facebook{
+    width: 40px;
+    height: 40px;
+}
+.link-footer{
+    font-family: "Indie Flower",sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.connect{
+    font-size: 20px;
+}
+.bloger-phone{
+    margin-top: 10px;
+}
+/* .test2
+{
+    background-color: rgb(255, 51, 0);
+    display: flex;
+}
+.test3
+{
+    background-color: rgb(255, 51, 0);
+    display: flex;
+}
+.test4
+{
+    background-color: rgb(255, 51, 0);
+    display: flex;
+}
+ */
+ 

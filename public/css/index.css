@@ -1,0 +1,143 @@
+.container{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+.father-twotabs{
+    display: flex;
+    justify-content:flex-end;
+}
+.twotabs{
+    width: 190px;
+    height: 270px;
+    margin-top: 50px;
+    border: 1px solid #c5c2c2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input-text{
+    width: 70px;
+    height: 30px;
+}
+.khunganh{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.tshirt{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+}
+.khungtrong{
+    position: relative;
+    height: 360px;
+    width: 260px;
+    border: 2px solid #c5c2c2;
+    margin-top: 100px;
+    margin-left: 120px;
+    
+     
+}
+.twotabs2{
+    width: 275px;
+    height: 370px;
+    margin-top: 50px;
+    border: 1px solid #c5c2c2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.scroll{
+    height: 250px;
+    width: 230px;
+    overflow: auto;
+}
+.tshirt-form{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #c5c2c2;
+    
+}
+.option{
+    display: flex;
+    flex-direction:row;
+}
+.btn-lg{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.load{
+    /* border-style: groove;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.header1{
+    
+    height: 30px;
+    background-color: #448ccb;
+}
+.contact{
+    color: black;
+    position: absolute;
+    right: 90px;
+    font-size: 14px;
+}
+.login{
+    color: black;
+    position: absolute;
+    right: 40px;
+    font-size: 14px;
+}
+
+/* footer */
+.footer{
+    margin-top: 150px;
+    background-color: #e6e2de;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-footer-logoo{
+    width: 200px;
+    height: 200px;
+}
+.cardbox-footer{
+    margin: 100px;
+}
+.img-footer-facebook{
+    width: 40px;
+    height: 40px;
+}
+.link-footer{
+    font-family: "Indie Flower",sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.connect{
+    font-size: 20px;
+}
+.bloger-phone{
+    margin-top: 10px;
+}
+.bg-light{
+    background-color: #e6e2de!important;
+}
+.gh{
+    width: 30px;
+    height: 30px;
+}
+
+/* //////////////////////////////////////// */

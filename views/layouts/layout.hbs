@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    {{#if isIndex}}
+        {{>indexhead}}
+    {{/if}} 
+    {{#if isDesign}}
+        {{>designhead}}
+    {{/if}} 
+    {{#if isGallery}}
+        {{>galleryhead}}
+    {{/if}}
+    {{#if isLogin}}
+        {{>loginhead}}
+    {{/if}}
+    {{#if isRegister}}
+        {{>loginhead}}
+    {{/if}}
+</head>
+
+<body>
+    {{#if isDesign}} {{>header1}} {{/if}} 
+    {{#if isGallery}} {{>header1}} {{/if}} 
+    {{#if isIndex}} {{>header}} {{/if}}
+    {{#if isLogin}} {{>header2}} {{/if}}
+    {{#if isRegister}} {{>header2}} {{/if}} 
+    {{{body}}}
+    {{>footer}}
+</body>
+
+</html>
